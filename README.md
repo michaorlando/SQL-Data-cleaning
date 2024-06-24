@@ -1,15 +1,21 @@
 # DATA CLEANING PROJECT IN SQL
 
 
-This repository showcases my proficiency in data cleaning using SQL. The project focuses on taking a raw dataset and transforming it into a high-quality, ready-for-analysis format.
+This repository showcases my proficiency in data cleaning using SQL. The project focuses on cleaning and preparing layoff data from 2020 to 2023 for various companies across different countries. The data includes:
+
+- Number of people laid off
+- Percentage of workforce laid off
+- Industry sector
+- Company name
+- Layoff date
 
 The project is structured into the following steps:
 
-Duplicate Removal: Techniques like DISTINCT and GROUP BY are employed to identify and eliminate duplicate entries within the dataset.
-Data Standardization: Data inconsistencies in formatting (e.g., dates, names) are addressed using string manipulation functions and conditional statements.
-Null Value Handling: Strategies for identifying and managing null values are implemented, including deletion, imputation, or flagging.
-Column Removal: Columns deemed irrelevant or redundant for further analysis are removed based on data exploration and understanding.
-Exploratory Data Analysis (EDA): Basic data exploration techniques using functions like AVG, SUM, and window functions are used to understand trends and relationships within the cleaned data.
+1. **Duplicate Removal:** Techniques like `WITH`, `UPDATE`, `DELETE`, and `INSERT INTO` are employed to identify and eliminate duplicate entries within the dataset.
+2. **Data Standardization:** Data inconsistencies in formatting (e.g., dates, company) are addressed using string manipulation functions and conditional statements.
+3. **Null Value Handling:** Strategies for identifying and managing null values are implemented, including deletion, imputation, or flagging.
+4. **Column Removal:** Columns deemed irrelevant or redundant for further analysis are removed based on data exploration and understanding.
+5. **Exploratory Data Analysis:** Basic data exploration techniques using functions like `AVG`, `SUM`, and `OVER with PARTITION BY` and window functions are used to understand trends and relationships within the cleaned data.
 
 <!--
 **michaorlando/michaorlando** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
